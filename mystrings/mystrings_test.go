@@ -1,4 +1,4 @@
-package mystrings
+package mystrings_test
 
 import (
 	"fmt"
@@ -10,5 +10,5 @@ func init() {
 }
 
 func TestXYZ(t *testing.T) {
-
+	fmt.Println("TestXYZ is called");
 }

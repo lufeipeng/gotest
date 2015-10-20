@@ -13,10 +13,11 @@ eg type
 
 eg Example
 */
-package godoc
+package mydoc
 
 import (
 	"fmt"
+	"io"
 )
 
 //MyDocVar
@@ -33,8 +34,6 @@ type Compressor func(io.Writer) (io.WriteCloser, error)
 
 // A sparseFileReader is a numBytesReader for reading sparse file data from a tar archive.
 type SparseFileReader struct {
-	rfr *regFileReader // reads the sparse-encoded file data
-	sp  []sparseEntry  // the sparse map for the file
 	pos int64          // keeps track of file position
 	tot int64          // total size of the file
 }

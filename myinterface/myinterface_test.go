@@ -5,6 +5,7 @@ import (
 	"testing"
 )
 
+
 func TestInteface(t *testing.T) {
 	sq1 := new(Square)
 	sq1.side = 5

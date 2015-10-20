@@ -22,3 +22,9 @@ http://localhost:6060/pkg/github.com/lufeipeng/gotest/godoc/
 go test ./mystrings -v -x
 注意godoc目录的example文件example_test.go, 注释的output必须与实际function的输出对应上, 否则go test 失败
 
+//oracle 关于eclipse ctrl + 右键跳转引用
+需要下载golang tools, 插件原来的下载地址失效
+go get -u golang/x/tools/cmd/oracle
+从github.com\golang\tools 下载tools 放入到gopath的对应路径, 在运行go install 即可
+
+

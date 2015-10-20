@@ -5,7 +5,7 @@ import (
 	"github.com/lufeipeng/gotest/mystrings"
 )
 
-func main() {
+func main_back1() {
 	fmt.Println("main is called \n")
 	var a int
 	fmt.Printf("a type is %T \n", a)

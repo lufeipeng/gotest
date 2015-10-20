@@ -4,6 +4,9 @@
 //2015-10-19
 
 //我的go开发环境
+运行测试用例的方法, 下载代码后，进入对应的目录，比如mydoc, 运行go test -v 即可
+根目录的webserver.go 简单的webserver测试函数
+main.go 入口函数, elipse下面一个main package只能有一个main func, 暂时修改为了main_back
 
 采用的是windows下面eclipse + php plugin
 并把测试的代码放入到github上面, 可以通过github就行源代码管理
